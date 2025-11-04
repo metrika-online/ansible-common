@@ -1,3 +1,9 @@
+# Ansible specific files
+*.retry
+*.vault
+.ansible/cp/ # Cache directory for control path
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
