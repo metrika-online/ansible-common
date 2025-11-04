@@ -1,7 +1,6 @@
 name: Check ansible repo
 on:
   push:
-  pull_request:
 
 jobs:
   validate:
