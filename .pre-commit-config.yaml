@@ -11,8 +11,6 @@ repos:
     rev: v6.22.2
     hooks:
       - id: ansible-lint
-        additional_dependencies:
-          - ansible-core
 
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.28.0
