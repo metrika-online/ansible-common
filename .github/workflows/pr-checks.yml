@@ -1,4 +1,4 @@
-name: Pull request checks
+name: Check ansible repo
 on:
   push:
   pull_request:
