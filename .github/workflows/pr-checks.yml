@@ -1,0 +1,17 @@
+name: Pull request checks
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate Ansible
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        id: pull
+        uses: actions/checkout@v4
+
+      - name: Run ansible-lint
+        id: ansible-lint
+        uses: ansible/ansible-lint@v6.22.2
