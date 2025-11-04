@@ -1,5 +1,5 @@
 ---
-- name: "Pull linux packages"
+- name: "Install base linux packages"
   hosts: "local"
   tags: [packages]
   become: true
@@ -7,7 +7,7 @@
   roles:
     - role: "packages"
 
-- name: "Pull linux configs"
+- name: "Change linux configs"
   hosts: "local"
   tags: [configs]
   become: true
