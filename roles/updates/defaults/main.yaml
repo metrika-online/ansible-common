@@ -1,0 +1,11 @@
+---
+updates_unattended_upgrades:
+  remove_unused_kernel: false
+  remove_unused_dependencies: true
+  auto_reboot: true
+  reboot_time: "02:00"
+  blacklist_packages: []
+  update_package_lists: 1
+  enabled: 1
+  download_upgradeable_packages: 1
+  autoclean_interval: 7

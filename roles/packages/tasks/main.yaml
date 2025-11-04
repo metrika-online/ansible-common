@@ -1,0 +1,5 @@
+---
+- name: "Install packages for Debian"
+  tags: [debian]
+  ansible.builtin.include_tasks: "debian.yaml"
+  when: ansible_distribution == "Debian"
